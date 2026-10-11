@@ -28,20 +28,20 @@ export const Hero: React.FC<HeroProps> = ({ currentLang }) => {
   return (
     <section
       id="home"
-      className="relative pt-20 sm:pt-22 md:pt-26 pb-8 sm:pb-10 md:pb-12 flex items-center justify-center overflow-hidden z-10"
+      className="relative pt-28 sm:pt-32 md:pt-36 pb-8 sm:pb-10 md:pb-12 flex items-center justify-center overflow-hidden z-10"
     >
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {/* Single Centered Column Layout: Profile Image on Top, Text Below */}
-        <div className="flex flex-col items-center text-center space-y-6 sm:space-y-7 -mt-2 sm:-mt-4">
+        <div className="flex flex-col items-center text-center space-y-6 sm:space-y-7 mt-2 sm:mt-3">
           
-          {/* 1. TOP: Primary Profile Image (Profile 1) with Dual Rotating Purple-and-Gold Rings */}
+          {/* 1. TOP: Primary Profile Image (Profile 1) with Celestial Royal Orb animation */}
           <AnimateOnScroll direction="down" duration={0.8} distance={20} className="relative z-20">
             <div className="relative inline-block">
               <RotatingProfileAvatar
                 imageUrl={ASSETS.profile1}
                 alt="Abdul Kaiyum — Primary Profile"
                 variant="hero"
-                timingOffset={false}
+                animationStyle="celestial"
               />
 
               {/* Integrated Miniature Profile 2 Preview Badge (Bottom Left of Profile) */}

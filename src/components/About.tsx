@@ -44,12 +44,12 @@ export const About: React.FC<AboutProps> = ({ currentLang }) => {
           <div className="lg:col-span-5 flex flex-col items-center justify-center order-1 lg:order-1">
             <AnimateOnScroll direction="right" duration={0.8} distance={30}>
               <div className="relative">
-                {/* Profile 2 Avatar with independent counter-rotation timing */}
+                {/* Profile 2 Avatar with Crown Chronometer & Prismatic Vortex animation */}
                 <RotatingProfileAvatar
                   imageUrl={ASSETS.profile2}
                   alt="Abdul Kaiyum — Secondary Profile Portrait"
                   variant="about"
-                  timingOffset={true}
+                  animationStyle="chronometer"
                 />
 
                 {/* Supporting Cross-preview badge showing Profile 1 (Primary) */}

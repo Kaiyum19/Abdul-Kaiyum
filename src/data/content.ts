@@ -1,6 +1,6 @@
 export const ASSETS = {
-  profile1: 'https://res.cloudinary.com/hahptdbj/image/upload/v1791643163/file_000000002b5081f4a63d2ee07bafde6d.png',
-  profile2: 'https://res.cloudinary.com/hahptdbj/image/upload/v1791688815/file_00000000e13c8211b85308ed3e7c8151.png',
+  profile1: 'https://res.cloudinary.com/hahptdbj/image/upload/v1791688815/file_00000000e13c8211b85308ed3e7c8151.png',
+  profile2: 'https://res.cloudinary.com/hahptdbj/image/upload/v1791708905/Photoroom-20250126_103913.jpg',
   bartaGraphyLogo: 'https://res.cloudinary.com/hahptdbj/image/upload/v1791638754/c82f087b-0bc9-4c42-99df-dfaf5acd5214.png',
   facebookPersonal: 'https://www.facebook.com/share/1FG5Grwd4k/',
   facebookBartaGraphy: 'https://www.facebook.com/share/1CSikiUPPW/',
